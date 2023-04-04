@@ -32,7 +32,7 @@ se fruta = "Morango" entao
     
     se (valorMaximo1 >= 25.00) ou (quantidadeFruta >=8)entao
         desconto <- valorMaximo1 - (valorMaximo1*10/100)
-        escreval("o novo valor ficou, ",desconto)
+        escreval("o novo valor ficou, ",desconto :6:2)
     fimse
 fimse
 
@@ -50,7 +50,7 @@ se fruta = "Maçã" entao
     
     se (valorMaximo2 >= 25.00) ou (quantidadeFruta >=8)entao
         desconto <- valorMaximo2 - (valorMaximo2*10/100)
-        escreval("o novo valor ficou, ",desconto)
+        escreval("o novo valor ficou, ",desconto :6:2)
     fimse
 fimse
 
