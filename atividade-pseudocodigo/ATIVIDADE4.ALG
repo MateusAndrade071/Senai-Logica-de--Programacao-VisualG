@@ -22,12 +22,12 @@ limpatela
 se fruta = "Morango" entao
      se (quantidadeFruta <= 5) e (fruta = "Morango") entao
         valorMinimo1 <- quantidadeFruta * 2.50
-        escreval("como escolheu ",quantidadeFruta, " Morangos, fica por kilo R$", valorMinimo1 )
+        escreval("como escolheu ",quantidadeFruta, " Morangos, fica por kilo R$", valorMinimo1 :6:2)
      fimse
 
      se (quantidadeFruta >=5 ) entao
          valorMaximo1 <- quantidadeFruta * 2.20
-         escreval("como escolheu ",quantidadeFruta, " Morangos, fica por kilo R$", valorMaximo1 )
+         escreval("como escolheu ",quantidadeFruta, " Morangos, fica por kilo R$", valorMaximo1 :6:2)
     fimse
     
     se (valorMaximo1 >= 25.00) ou (quantidadeFruta >=8)entao
