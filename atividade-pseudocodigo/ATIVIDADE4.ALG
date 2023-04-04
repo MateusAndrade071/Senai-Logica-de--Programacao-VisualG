@@ -4,14 +4,14 @@ Var
 
 fruta:caractere
 quantidadeFruta, valorMinimo1, valorMinimo2, valorMaximo1, valorMaximo2:real
-desconto, novoValor:real
+desconto:real
 
 Inicio
 
 //Escolha da fruta e quantidade
-escreval("Ol· somos da frutaria Americanas")
+escreval("Ol√° somos da frutaria Americanas")
 escreval("")
-escreval("Me diga qual dessas frutas quer (Morango ou MaÁ„)")
+escreval("Me diga qual dessas frutas quer (Morango ou Ma√ß√£)")
 leia(fruta)
 escreval("E a quantidade?")
 leia(quantidadeFruta)
@@ -36,16 +36,16 @@ se fruta = "Morango" entao
     fimse
 fimse
 
-//caso escolha maÁ„ aqui
-se fruta = "MaÁ„" entao
+//caso escolha ma√ß√£ aqui
+se fruta = "Ma√ß√£" entao
     se (quantidadeFruta <= 5)entao
         valorMinimo2 <- quantidadeFruta * 1.80
-        escreval("como escolheu ",quantidadeFruta, " MaÁ„s, fica por kilo R$", valorMinimo2 :6:2)
+        escreval("como escolheu ",quantidadeFruta, " Ma√ß√£s, fica por kilo R$", valorMinimo2 :6:2)
     fimse
 
     se (quantidadeFruta >=5 )entao
         valorMaximo2 <- quantidadeFruta * 1.50
-        escreval("como escolheu ",quantidadeFruta, " MaÁ„s, fica por kilo R$", valorMaximo2 :6:2)
+        escreval("como escolheu ",quantidadeFruta, " Ma√ß√£s, fica por kilo R$", valorMaximo2 :6:2)
     fimse
     
     se (valorMaximo2 >= 25.00) ou (quantidadeFruta >=8)entao
