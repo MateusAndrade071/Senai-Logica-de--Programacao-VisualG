@@ -15,12 +15,12 @@ leia(nota2)
 media <- (nota1 + nota2)/2
 
 se media <= 4  entao
-    escreva("A média do aluno foi: ", media :6:2)
+    escreva("A mÃ©dia do aluno foi: ", media :6:2)
     escreval (" - ALUNO REPROVADO ")
 fimse
- se media <=  5.9 entao
-    escreva("A média do aluno foi: ", media :6:2)
-    escreval (" - ALUNO DE RECUPERAÇÃO ")
+ se media <=  6 entao
+    escreva("A mÃ©dia do aluno foi: ", media :6:2)
+    escreval (" - ALUNO DE RECUPERAÃ‡ÃƒO ")
  fimse
  se media >= 6 entao
     escreva("A media do aluno foi: ", media :6:2)
